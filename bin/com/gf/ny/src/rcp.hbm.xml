@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC '-//Hibernate/Hibernate Mapping DTD 3.0//EN' 'http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd'>
+<hibernate-mapping>
+  <class name='com.gf.ny.src.rcp' table='rcp'>
+  <id name='id' type='int' column='id'><generator class='increment'/></id>
+  <property name='queryPriority' column='query_priority'/>
+  <property name='quantityLimitedRequest' column='quantity_limited_request'/>
+  <property name='responseModality' column='response_modality'/>
+  <property name='executionandDeliveryTime' column='execution_and_delivery_time'/>
+  <property name='modifyIndicator' column='modify_indicator'/>
+  <property name='sortbyField' column='sortby_field'/>
+  <property name='segmentgroupinclusion' column='segment_group_inclusion'/>
+  <property name='messageControlId' column='messagecontrolid'/>
+  <property name='hl7Interface' column='interface'/>
+</class>
+</hibernate-mapping>

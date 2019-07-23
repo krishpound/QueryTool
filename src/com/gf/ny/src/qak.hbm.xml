@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC '-//Hibernate/Hibernate Mapping DTD 3.0//EN' 'http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd'>
+<hibernate-mapping>
+  <class name='com.gf.ny.src.qak' table='qak'>
+  <id name='id' type='int' column='id'><generator class='increment'/></id>
+  <property name='queryTag' column='query_tag'/>
+  <property name='queryResponseStatus' column='query_response_status'/>
+  <property name='messageQueryName' column='message_query_name'/>
+  <property name='hitCount' column='hit_count'/>
+  <property name='thispayload' column='this_payload'/>
+  <property name='hitsremaining' column='hits_remaining'/>
+  <property name='messageControlId' column='messagecontrolid'/>
+  <property name='hl7Interface' column='interface'/>
+</class>
+</hibernate-mapping>

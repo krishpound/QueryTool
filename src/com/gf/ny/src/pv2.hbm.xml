@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC '-//Hibernate/Hibernate Mapping DTD 3.0//EN' 'http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd'>
+<hibernate-mapping>
+  <class name='com.gf.ny.src.pv2' table='pv2'>
+  <id name='id' type='int' column='id'><generator class='increment'/></id>
+  <property name='priorPendingLocation' column='prior_pending_location'/>
+  <property name='accommodationCode' column='accommodation_code'/>
+  <property name='admitReason' column='admit_reason'/>
+  <property name='transferReason' column='transfer_reason'/>
+  <property name='patientValuables' column='patient_valuables'/>
+  <property name='patientValuablesLocation' column='patient_valuables_location'/>
+  <property name='visitUserCode' column='visit_user_code'/>
+  <property name='expectedAdmitDateTime' column='expected_admit_datetime'/>
+  <property name='expectedDischargeDateTime' column='expected_discharge_datetime'/>
+  <property name='estimatedLengthofInpatientStay' column='estimated_length_of_inpatient_stay'/>
+  <property name='actualLengthofInpatientStay' column='actual_length_of_inpatient_stay'/>
+  <property name='visitDescription' column='visit_description'/>
+  <property name='referralSourceCode' column='referral_source_code'/>
+  <property name='previousServiceDate' column='previous_service_date'/>
+  <property name='employmentIllnessRelatedIndicator' column='employment_illness_related_indicator'/>
+  <property name='purgeStatusCode' column='purge_status_code'/>
+  <property name='purgeStatusDate' column='purge_status_date'/>
+  <property name='specialProgramCode' column='special_program_code'/>
+  <property name='retentionIndicator' column='retention_indicator'/>
+  <property name='expectedNumberofInsurancePlans' column='expected_number_of_insurance_plans'/>
+  <property name='visitPublicityCode' column='visit_publicity_code'/>
+  <property name='visitProtectionIndicator' column='visit_protection_indicator'/>
+  <property name='clinicOrganizationName' column='clinic_organization_name'/>
+  <property name='patientStatusCode' column='patient_status_code'/>
+  <property name='visitPriorityCode' column='visit_priority_code'/>
+  <property name='previousTreatmentDate' column='previous_treatment_date'/>
+  <property name='expectedDischargeDisposition' column='expected_discharge_disposition'/>
+  <property name='signatureonFileDate' column='signature_on_file_date'/>
+  <property name='firstSimilarIllnessDate' column='first_similar_illness_date'/>
+  <property name='patientChargeAdjustmentCode' column='patient_charge_adjustment_code'/>
+  <property name='recurringServiceCode' column='recurring_service_code'/>
+  <property name='billingMediaCode' column='billing_media_code'/>
+  <property name='expectedSurgeryDateandTime' column='expected_surgery_date_and_time'/>
+  <property name='militaryPartnershipCode' column='military_partnership_code'/>
+  <property name='militaryNonAvailabilityCode' column='military_non_availability_code'/>
+  <property name='newbornBabyIndicator' column='newborn_baby_indicator'/>
+  <property name='babyDetainedIndicator' column='baby_detained_indicator'/>
+  <property name='modeofArrivalCode' column='mode_of_arrival_code'/>
+  <property name='recreationalDrugUseCode' column='recreational_drug_use_code'/>
+  <property name='admissionLevelofCareCode' column='admission_level_of_care_code'/>
+  <property name='precautionCode' column='precaution_code'/>
+  <property name='patientConditionCode' column='patient_condition_code'/>
+  <property name='livingWillCode' column='living_will_code'/>
+  <property name='organDonorCode' column='organ_donor_code'/>
+  <property name='advanceDirectiveCode' column='advance_directive_code'/>
+  <property name='patientStatusEffectiveDate' column='patient_status_effective_date'/>
+  <property name='expectedLOAReturnDateTime' column='expected_loa_return_datetime'/>
+  <property name='expectedPreadmissionTestingDateTime' column='expected_pre_admission_testing_datetime'/>
+  <property name='notifyClergyCode' column='notify_clergy_code'/>
+  <property name="segment" column='segment'/>
+  <property name="messagebodyid" column='messagebodyid'/>
+  <property type="int" name="route" column='route'/>
+</class>
+</hibernate-mapping>

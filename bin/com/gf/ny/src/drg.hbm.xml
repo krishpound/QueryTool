@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC '-//Hibernate/Hibernate Mapping DTD 3.0//EN' 'http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd'>
+<hibernate-mapping>
+  <class name='com.gf.ny.src.drg' table='drg'>
+  <id name='id' type='int' column='id'><generator class='increment'/></id>
+  <property name='diagnosticrelatedgroup' column='diagnosticrelatedgroup'/>
+  <property name='drgassigneddatetime' column='drgassigneddatetime'/>
+  <property name='drgapprovalindicator' column='drgapprovalindicator'/>
+  <property name='drggrouperreviewcode' column='drggrouperreviewcode'/>
+  <property name='outliertype' column='outliertype'/>
+  <property name='outlierdays' column='outlierdays'/>
+  <property name='outliercost' column='outliercost'/>
+  <property name='drgpayor' column='drgpayor'/>
+  <property name='outlierreimbursement' column='outlierreimbursement'/>
+  <property name='confidentialindicator' column='confidentialindicator'/>
+  <property name='drgtransfertype' column='drgtransfertype'/>
+  <property name='nameofcoder' column='nameofcoder'/>
+  <property name='grouperstatus' column='grouperstatus'/>
+  <property name='pcclvaluecode' column='pcclvaluecode'/>
+  <property name='effectiveweight' column='effectiveweight'/>
+  <property name='monetaryamount' column='monetaryamount'/>
+  <property name='statuspatient' column='statuspatient'/>
+  <property name='groupersoftwarename' column='groupersoftwarename'/>
+  <property name='groupersoftwareversion' column='groupersoftwareversion'/>
+  <property name='statusfinancialcalculation' column='statusfinancialcalculation'/>
+  <property name='relativediscountsurcharge' column='relativediscountsurcharge'/>
+  <property name='basiccharge' column='basiccharge'/>
+  <property name='discountsurcharge' column='discountsurcharge'/>
+  <property name='calculateddays' column='calculateddays'/>
+  <property name='statusgender' column='statusgender'/>
+  <property name='statusage' column='statusage'/>
+  <property name='statuslengthofstay' column='statuslengthofstay'/>
+  <property name='statussamedayflag' column='statussamedayflag'/>
+  <property name='statusseparationmode' column='statusseparationmode'/>
+  <property name='statusweightatbirth' column='statusweightatbirth'/>
+  <property name='statusrespirationminutes' column='statusrespirationminutes'/>
+  <property name='statusadmission' column='statusadmission'/>
+  <property name="segment" column='segment'/>
+  <property name="messagebodyid" column='messagebodyid'/>
+  <property type="int" name="route" column='route'/>
+</class>
+</hibernate-mapping>

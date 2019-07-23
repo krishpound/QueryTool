@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC '-//Hibernate/Hibernate Mapping DTD 3.0//EN' 'http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd'>
+<hibernate-mapping>
+  <class name='com.gf.ny.src.rol' table='rol'>
+  <id name='id' type='int' column='id'><generator class='increment'/></id>
+  <property name='roleInstanceID' column='role_instance_id'/>
+  <property name='actionCode' column='action_code'/>
+  <property name='role' column='role'/>
+  <property name='rolePerson' column='role_person'/>
+  <property name='roleBeginDateTime' column='role_begin_datetime'/>
+  <property name='roleEndDateTime' column='role_end_datetime'/>
+  <property name='roleDuration' column='role_duration'/>
+  <property name='roleActionReason' column='role_action_reason'/>
+  <property name='providerType' column='provider_type'/>
+  <property name='organizationUnitType' column='organization_unit_type'/>
+  <property name='officeHomeAddressBirthplace' column='officehome_addressbirthplace'/>
+  <property name='phone' column='phone'/>
+  <property name="segment" column='segment'/>
+  <property name="messagebodyid" column='messagebodyid'/>
+  <property type="int" name="route" column='route'/>
+</class>
+</hibernate-mapping>

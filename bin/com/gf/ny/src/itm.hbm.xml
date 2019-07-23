@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC '-//Hibernate/Hibernate Mapping DTD 3.0//EN' 'http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd'>
+<hibernate-mapping>
+ <class name='com.gf.ny.src.itm' table='itm'>
+ 	<id name='id' type="int" column='id'><generator class='increment'/></id>
+	<property name='itemIdentifier' column='item_identifier'/>
+	<property name='itemDescription' column='item_description'/>
+	<property name='itemStatus' column='item_status'/>
+	<property name='itemType' column='item_type'/>
+	<property name='itemCategory' column='item_category'/>
+	<property name='subjecttoExpirationIndicator' column='subject_to_expiration_indicator'/>
+	<property name='manufacturerIdentifier' column='manufacturer_identifier'/>
+	<property name='manufacturerName' column='manufacturer_name'/>
+	<property name='manufacturerCatalogNumber' column='manufacturer_catalog_number'/>
+	<property name='manufacturerLabelerIdentificationCode' column='manufacturer_labeler_identification_code'/>
+	<property name='patientChargeableIndicator' column='patient_chargeable_indicator'/>
+	<property name='transactionCode' column='transaction_code'/>
+	<property name='transactionamountunit' column='transaction_amount_unit'/>
+	<property name='stockedItemIndicator' column='stocked_item_indicator'/>
+	<property name='supplyRiskCodes' column='supply_risk_codes'/>
+	<property name='approvingRegulatoryAgency' column='approving_regulatory_agency'/>
+	<property name='latexIndicator' column='latex_indicator'/>
+	<property name='rulingAct' column='ruling_act'/>
+	<property name='itemNaturalAccountCode' column='item_natural_account_code'/>
+	<property name='approvedToBuyQuantity' column='approved_to_buy_quantity'/>
+	<property name='approvedToBuyPrice' column='approved_to_buy_price'/>
+	<property name='taxableItemIndicator' column='taxable_item_indicator'/>
+	<property name='freightChargeIndicator' column='freight_charge_indicator'/>
+	<property name='itemSetIndicator' column='item_set_indicator'/>
+	<property name='itemSetIdentifier' column='item_set_identifier'/>
+	<property name='trackDepartmentUsageIndicator' column='track_department_usage_indicator'/>
+	<property name='procedureCode' column='procedure_code'/>
+	<property name='procedureCodeModifier' column='procedure_code_modifier'/>
+	<property name='specialHandlingCode' column='special_handling_code'/>
+	<property name='messageControlId' column='messagecontrolid'/>
+	<property name='hl7Interface' column='interface'/>
+	</class>
+</hibernate-mapping>
+	

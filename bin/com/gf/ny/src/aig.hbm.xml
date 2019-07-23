@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC '-//Hibernate/Hibernate Mapping DTD 3.0//EN' 'http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd'>
+<hibernate-mapping>
+  <class name='com.gf.ny.src.aig' table='aig'>
+  <id name='id' type='int' column='id'><generator class='increment'/></id>
+  <property name='setID' column='set_id'/>
+  <property name='segmentActionCode' column='segment_action_code'/>
+  <property name='resourceID' column='resource_id'/>
+  <property name='resourceType' column='resource_type'/>
+  <property name='resourceGroup' column='resource_group'/>
+  <property name='resourceQuantity' column='resource_quantity'/>
+  <property name='resourceQuantityUnits' column='resource_quantity_units'/>
+  <property name='startDatetTime' column='start_datettime'/>
+  <property name='startDateTimeOffset' column='start_datetime_offset'/>
+  <property name='startDateTimeOffsetUnits' column='start_datetime_offset_units'/>
+  <property name='duration' column='duration'/>
+  <property name='durationUnits' column='duration_units'/>
+  <property name='allowSubstitutionCode' column='allow_substitution_code'/>
+  <property name='fillerStatusCode' column='filler_status_code'/>
+  <property name='messageControlId' column='messagecontrolid'/>
+  <property name='hl7Interface' column='interface'/>
+</class>
+</hibernate-mapping>

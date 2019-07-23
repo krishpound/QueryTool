@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC '-//Hibernate/Hibernate Mapping DTD 3.0//EN' 'http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd'>
+<hibernate-mapping>
+  <class name='com.gf.ny.src.mrg' table='mrg'>
+  <id name='id' type='int' column='id'><generator class='increment'/></id>
+  <property name='priorpatientidentifierlist' column='priorpatientidentifierlist'/>
+  <property name='prioralternatepatientid' column='prioralternatepatientid'/>
+  <property name='priorpatientaccountnumber' column='priorpatientaccountnumber'/>
+  <property name='priorpatientid' column='priorpatientid'/>
+  <property name='priorvisitnumber' column='priorvisitnumber'/>
+  <property name='prioralternatevisitid' column='prioralternatevisitid'/>
+  <property name='priorpatientname' column='priorpatientname'/>
+  <property name="segment" column='segment'/>
+  <property name="messagebodyid" column='messagebodyid'/>
+  <property type="int" name="route" column='route'/>
+</class>
+</hibernate-mapping>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC '-//Hibernate/Hibernate Mapping DTD 3.0//EN' 'http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd'>
+<hibernate-mapping>
+  <class name='com.gf.ny.src.cir' table='cir'>
+  <id name='id' type='int' column='id'><generator class='increment'/></id>
+  <property name='sendingApplication' column='sendingapplication'/>
+  <property name='sendingFacility' column='sendingfacility'/>
+  <property name='receivingApplication' column='receivingapplication'/>
+  <property name='receivingFacility' column='receivingfacility'/>
+  <property name='responseDateTime' column='responsedatetime'/>
+  <property name='messageControlId' column='messagecontrolid'/>
+  <property name='patientIdentifierList' column='patientidentifierlist'/>
+  <property name='immAdminDate' column='immadmindate'/>
+  <property name='immAdminCode' column='immadmincode'/>
+  <property name='immActionCode' column='immactioncode'/>
+  <property name='orderingProvider' column='orderingprovider'/>
+  <property name='errorCodeAndLocation' column='errorcodeandlocation'/>
+  <property name='errorLocation' column='errorlocation'/>
+  <property name='hl7ErrorCode' column='hl7errorcode'/>
+  <property name='severity' column='severity'/>
+  <property name='appErrorCode' column='apperrorcode'/>
+  <property name='appErrorParameter' column='apperrorparameter'/>
+  <property name='diagnosticInfo' column='diagnosticinfo'/>
+  <property name='userMessage' column='usermessage'/>
+  <property name='hl7Interface' column='interface'/>
+</class>
+</hibernate-mapping>

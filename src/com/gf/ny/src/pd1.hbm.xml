@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC '-//Hibernate/Hibernate Mapping DTD 3.0//EN' 'http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd'>
+<hibernate-mapping>
+  <class name='com.gf.ny.src.pd1' table='pd1'>
+  <id name='id' type='int' column='id'><generator class='increment'/></id>
+  <property name='livingdependency' column='livingdependency'/>
+  <property name='livingarrangement' column='livingarrangement'/>
+  <property name='patientprimaryfacility' column='patientprimaryfacility'/>
+  <property name='patientprimarycareprovidernameandddno' column='patientprimarycareprovidernameandddno'/>
+  <property name='studentindicator' column='studentindicator'/>
+  <property name='handicap' column='handicap'/>
+  <property name='livingwillcode' column='livingwillcode'/>
+  <property name='organdonorcode' column='organdonorcode'/>
+  <property name='separatebill' column='separatebill'/>
+  <property name='duplicatepatient' column='duplicatepatient'/>
+  <property name='publicitycode' column='publicitycode'/>
+  <property name='protectionindicator' column='protectionindicator'/>
+  <property name='protectiontndicatoreffectivedate' column='protectiontndicatoreffectivedate'/>
+  <property name='placeofworship' column='placeofworship'/>
+  <property name='advancedirectivecode' column='advancedirectivecode'/>
+  <property name='immunizationregistrystatus' column='immunizationregistrystatus'/>
+  <property name='immunizationregistrystatuseffectivedate' column='immunizationregistrystatuseffectivedate'/>
+  <property name='publicitycodeeffectivedate' column='publicitycodeeffectivedate'/>
+  <property name='militarybranch' column='militarybranch'/>
+  <property name='militaryrankgrade' column='militaryrankgrade'/>
+  <property name='militarystatus' column='militarystatus'/>
+  <property name='route' type='int' column='route'/>
+  <property name='segment' column='segment'/>
+  <property name='messagebodyid' column='messagebodyid'/>
+</class>
+</hibernate-mapping>

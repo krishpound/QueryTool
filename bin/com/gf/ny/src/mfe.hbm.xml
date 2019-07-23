@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC '-//Hibernate/Hibernate Mapping DTD 3.0//EN' 'http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd'>
+<hibernate-mapping>
+ <class name='com.gf.ny.src.mfe' table='mfe'>
+ <id name='id' type="int" column='id'><generator class='increment'/></id>
+ <property name='recordLevelEventCode' column='recordlevel_event_code'/>
+ <property name='mFNControlID' column='mfn_control_id'/>
+ <property name='effectiveDateTime' column='effective_datetime'/>
+ <property name='primaryKeyValue' column='primary_key_value'/>
+ <property name='primaryKeyValueType' column='primary_key_value_type'/>
+ <property name='enteredDateTime' column='entered_datetime'/>
+ <property name='enteredBy' column='entered_by'/>
+ <property name="segment" column='segment'/>
+ <property name="messagebodyid" column='messagebodyid'/>
+ <property type="int" name="route" column='route'/>
+</class>
+</hibernate-mapping>

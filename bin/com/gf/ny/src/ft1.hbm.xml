@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC '-//Hibernate/Hibernate Mapping DTD 3.0//EN' 'http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd'>
+<hibernate-mapping>
+  <class name='com.gf.ny.src.ft1' table='ft1'>
+  <id name='id' type='int' column='id'><generator class='increment'/></id>
+  <property name='setID' column='set_id'/>
+  <property name='transactionID' column='transaction_id'/>
+  <property name='transactionBatchID' column='transaction_batch_id'/>
+  <property name='transactionDate' column='transaction_date'/>
+  <property name='transactionPostingDate' column='transaction_posting_date'/>
+  <property name='transactionType' column='transaction_type'/>
+  <property name='transactionCode' column='transaction_code'/>
+  <property name='transactionDescription' column='transaction_description'/>
+  <property name='transactionDescriptionAlt' column='transaction_description_alt'/>
+  <property name='transactionQuantity' column='transaction_quantity'/>
+  <property name='transactionAmountExtended' column='transaction_amount_extended'/>
+  <property name='transactionAmountUnit' column='transaction_amount_unit'/>
+  <property name='departmentCode' column='department_code'/>
+  <property name='insurancePlanID' column='insurance_plan_id'/>
+  <property name='insuranceAmount' column='insurance_amount'/>
+  <property name='assignedPatientLocation' column='assigned_patient_location'/>
+  <property name='feeSchedule' column='fee_schedule'/>
+  <property name='patientType' column='patient_type'/>
+  <property name='diagnosisCode' column='diagnosis_code'/>
+  <property name='performedByCode' column='performed_by_code'/>
+  <property name='orderedByCode' column='ordered_by_code'/>
+  <property name='unitCost' column='unit_cost'/>
+  <property name='fillerOrderNumber' column='filler_order_number'/>
+  <property name='enteredByCode' column='entered_by_code'/>
+  <property name='procedureCode' column='procedure_code'/>
+  <property name='procedureCodeModifier' column='procedure_code_modifier'/>
+  <property name="segment" column='segment'/>
+  <property name="messagebodyid" column='messagebodyid'/>
+  <property type="int" name="route" column='route'/>
+</class>
+</hibernate-mapping>

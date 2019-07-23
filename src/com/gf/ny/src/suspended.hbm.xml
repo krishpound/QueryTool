@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC '-//Hibernate/Hibernate Mapping DTD 3.0//EN' 'http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd'>
+<hibernate-mapping>
+  <class name='com.gf.ny.src.suspended' table='suspended'>
+  <id name='id' type='int' column='id'><generator class='increment'/></id>
+  <property name='hid' column='h_id'/>
+  <property name='htimeCreated' column='h_timecreated'/>
+  <property name='hsessionId' column='h_sessionid'/>
+  <property name='hstatus' column='h_status'/>
+  <property name='hsourceConfigName' column='h_sourceconfigname'/>
+  <property name='htargetConfigName' column='h_targetconfigname'/>
+  <property name='mid' column='m_id'/>
+  <property name='moriginalDocId' column='m_originaldocid'/>
+  <property name='messageControlId' column='messagecontrolid'/>
+  <property name='hl7Interface' column='interface'/>
+</class>
+</hibernate-mapping>

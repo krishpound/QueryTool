@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC '-//Hibernate/Hibernate Mapping DTD 3.0//EN' 'http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd'>
+<hibernate-mapping>
+  <class name='com.gf.ny.src.orc' table='orc'>
+  <id name='id' type='int' column='id'><generator class='increment'/></id>
+  <property name='orderControl' column='order_control'/>
+  <property name='placerOrderNumber' column='placer_order_number'/>
+  <property name='fillerOrderNumber' column='filler_order_number'/>
+  <property name='placerGroupNumber' column='placer_group_number'/>
+  <property name='orderStatus' column='order_status'/>
+  <property name='responseFlag' column='response_flag'/>
+  <property name='quantityTiming' column='quantitytiming'/>
+  <property name='parent' column='parent'/>
+  <property name='dateTimeofTransaction' column='datetime_of_transaction'/>
+  <property name='enteredBy' column='entered_by'/>
+  <property name='verifiedBy' column='verified_by'/>
+  <property name='orderingProvider' column='ordering_provider'/>
+  <property name='entererLocation' column='enterer_location'/>
+  <property name='callBackPhoneNumber' column='call_back_phone_number'/>
+  <property name='orderEffectiveDateTime' column='order_effective_datetime'/>
+  <property name='orderControlCodeReason' column='order_control_code_reason'/>
+  <property name='enteringOrganization' column='entering_organization'/>
+  <property name='enteringDevice' column='entering_device'/>
+  <property name='actionBy' column='action_by'/>
+  <property name='advancedBeneficiaryNoticeCode' column='advanced_beneficiary_notice_code'/>
+  <property name='orderingFacilityName' column='ordering_facility_name'/>
+  <property name='orderingFacilityAddress' column='ordering_facility_address'/>
+  <property name='orderingFacilityPhoneNumber' column='ordering_facility_phone_number'/>
+  <property name='orderingProviderAddress' column='ordering_provider_address'/>
+  <property name='orderStatusModifier' column='order_status_modifier'/>
+  <property name='advancedBeneficiaryNoticeOverrideReason' column='advanced_beneficiary_notice_override_reason'/>
+  <property name='fillerExpectedAvailabilityDateTime' column='filler_expected_availability_datetime'/>
+  <property name='confidentialityCode' column='confidentiality_code'/>
+  <property name='orderType' column='order_type'/>
+  <property name='entererAuthorizationMode' column='enterer_authorization_mode'/>
+  <property name="segment" column='segment'/>
+  <property name="messageBodyId" column='messagebodyid'/>
+  <property type="int" name="route" column='route'/>
+</class>
+</hibernate-mapping>

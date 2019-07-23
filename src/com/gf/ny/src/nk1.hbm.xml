@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC '-//Hibernate/Hibernate Mapping DTD 3.0//EN' 'http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd'>
+<hibernate-mapping>
+  <class name='com.gf.ny.src.nk1' table='nk1'>
+  <id name='id' type='int' column='id'><generator class='increment'/></id>
+  <property name='setid' column='setid'/>
+  <property name='name' column='name'/>
+  <property name='relationship' column='relationship'/>
+  <property name='address' column='address'/>
+  <property name='phonenumber' column='phonenumber'/>
+  <property name='businessphonenumber' column='businessphonenumber'/>
+  <property name='contactrole' column='contactrole'/>
+  <property name='startdate' column='startdate'/>
+  <property name='enddate' column='enddate'/>
+  <property name='associatedpartiesjobtitle' column='associatedpartiesjobtitle'/>
+  <property name='associatedpartiesjobcodeclass' column='associatedpartiesjobcodeclass'/>
+  <property name='associatedpartiesemployeenumber' column='associatedpartiesemployeenumber'/>
+  <property name='organizationname' column='organizationname'/>
+  <property name='maritalstatus' column='maritalstatus'/>
+  <property name='administrativesex' column='administrativesex'/>
+  <property name='datetimeofbirth' column='datetimeofbirth'/>
+  <property name='livingdependency' column='livingdependency'/>
+  <property name='ambulatorystatus' column='ambulatorystatus'/>
+  <property name='citizenship' column='citizenship'/>
+  <property name='primarylanguage' column='primarylanguage'/>
+  <property name='livingarrangement' column='livingarrangement'/>
+  <property name='publicitycode' column='publicitycode'/>
+  <property name='protectionindicator' column='protectionindicator'/>
+  <property name='studentindicator' column='studentindicator'/>
+  <property name='religion' column='religion'/>
+  <property name='mothersmaidenname' column='mothersmaidenname'/>
+  <property name='aationality' column='aationality'/>
+  <property name='ethnicgroup' column='ethnicgroup'/>
+  <property name='contactreason' column='contactreason'/>
+  <property name='contactpersonsname' column='contactpersonsname'/>
+  <property name='contactpersonstelephonenumber' column='contactpersonstelephonenumber'/>
+  <property name='contactpersonsaddress' column='contactpersonsaddress'/>
+  <property name='associatedpartysidentifiers' column='associatedpartysidentifiers'/>
+  <property name='jobstatus' column='jobstatus'/>
+  <property name='race' column='race'/>
+  <property name='handicap' column='handicap'/>
+  <property name='contactpersonsocialsecuritynumber' column='contactpersonsocialsecuritynumber'/>
+  <property name='xextofkinbirthplace' column='xextofkinbirthplace'/>
+  <property name='vipindicator' column='vipindicator'/>
+</class>
+</hibernate-mapping>

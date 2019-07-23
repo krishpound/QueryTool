@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC '-//Hibernate/Hibernate Mapping DTD 3.0//EN' 'http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd'>
+<hibernate-mapping>
+ <class name='com.gf.ny.src.pid' table='pid'>
+	<id name='id' type="int" column='id'><generator class='increment'/></id>
+ 	<property name='setId' column='setid'/>
+	<property name='patientId' column='patientid'/>
+	<property name='patientIdentifierList' column='patientidentifierlist'/>
+	<property name='alternatePatientId' column='alternatepatientid'/>
+	<property name='patientName' column='patientname'/>
+	<property name='motherMaidenName' column='mothermaidenname'/>
+	<property name='dateOfBirth' column='dateofbirth'/>
+	<property name='administrativeSex' column='administrativesex'/>
+	<property name='patientAlias' column='patientalias'/>
+	<property name='race' column='race'/>
+	<property name='patientAddress' column='patientaddress'/>
+	<property name='countyCode' column='countycode'/>
+	<property name='phoneNumberHome' column='phonenumberhome'/>
+	<property name='phoneNumberBusiness' column='phonenumberbusiness'/>
+	<property name='primaryLanguage' column='primarylanguage'/>
+	<property name='maritalStatus' column='maritalstatus'/>
+	<property name='religion' column='religion'/>
+	<property name='patientAccountNumber' column='patientaccountnumber'/>
+	<property name='ssnNumber' column='ssnnumber'/>
+	<property name='driverLicenseNumber' column='driverlicensenumber'/>
+	<property name='motherIdentifier' column='motheridentifier'/>
+	<property name='ethnicGroup' column='ethnicgroup'/>
+	<property name='birthPlace' column='birthplace'/>
+	<property name='multipleBirthIndicator' column='multiplebirthindicator'/>
+	<property name='birthOrder' column='birthorder'/>
+	<property name='citizenship' column='citizenship'/>
+	<property name='veteransMilitaryStatus' column='veteransmilitarystatus'/>
+	<property name='nationality' column='nationality'/>
+	<property name='patientDeathDatetime' column='patientdeathdatetime'/>
+	<property name='patientDeathIndicator' column='patientdeathindicator'/>
+	<property name='identityUnknownIndicator' column='identityunknownindicator'/>
+	<property name='identityReliabilityCode' column='identityreliabilitycode'/>
+	<property name='lastUpdateDatetime' column='lastupdatedatetime'/>
+	<property name='lastUpdateFacility' column='lastupdatefacility'/>
+	<property name='speciesCode' column='speciescode'/>
+	<property name='breedCode' column='breedcode'/>
+	<property name='strain' column='strain'/>
+	<property name='productionClassCode' column='productionclasscode'/>
+	<property name='tribalCitizenship' column='tribalcitizenship'/>
+	<property name="segment" column='segment'/>
+ 	<property name="messageBodyId" column='messagebodyid'/>
+ 	<property type="int" name="route" column='route'/>
+	
+</class>
+</hibernate-mapping>

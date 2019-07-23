@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC '-//Hibernate/Hibernate Mapping DTD 3.0//EN' 'http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd'>
+<hibernate-mapping>
+ <class name='com.gf.ny.src.ivt' table='ivt'>
+ <id name='id' type="int" column='id'><generator class='increment'/></id>
+ <property name='setId' column='set_id'/>
+ <property name='inventoryLocationIdentifier' column='inventory_location_identifier'/>
+ <property name='inventoryLocationName' column='inventory_location_name'/>
+ <property name='sourceLocationIdentifier' column='source_location_identifier'/>
+ <property name='sourceLocationName' column='source_location_name'/>
+ <property name='itemStatus' column='item_status'/>
+ <property name='binLocationIdentifier' column='bin_location_identifier'/>
+ <property name='orderPackaging' column='order_packaging'/>
+ <property name='issuePackaging' column='issue_packaging'/>
+ <property name='defaultInventoryAssetAccount' column='default_inventory_asset_account'/>
+ <property name='patientChargeableIndicator' column='patient_chargeable_indicator'/>
+ <property name='transactionCode' column='transaction_code'/>
+ <property name='transactionamountunit' column='transaction_amount_unit'/>
+ <property name='itemImportanceCode' column='item_importance_code'/>
+ <property name='stockedItemIndicator' column='stocked_item_indicator'/>
+ <property name='consignmentItemIndicator' column='consignment_item_indicator'/>
+ <property name='reusableItemIndicator' column='reusable_item_indicator'/>
+ <property name='reusableCost' column='reusable_cost'/>
+ <property name='substituteItemIdentifier' column='substitute_item_identifier'/>
+ <property name='latexFreeSubstituteItemIdentifier' column='latex_free_substitute_item_identifier'/>
+ <property name='recommendedReorderTheory' column='recommended_reorder_theory'/>
+ <property name='recommendedSafetyStockDays' column='recommended_safety_stock_days'/>
+ <property name='recommendedMaximumDaysInventory' column='recommended_maximum_days_inventory'/>
+ <property name='recommendedOrderPoint' column='recommended_order_point'/>
+ <property name='recommendedOrderAmount' column='recommended_order_amount'/>
+ <property name='operatingRoomParLevelIndicator' column='operating_room_par_level_indicator'/>
+ <property name='messageControlId' column='messagecontrolid'/>
+ <property name='hl7Interface' column='interface'/>
+</class>
+</hibernate-mapping>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC '-//Hibernate/Hibernate Mapping DTD 3.0//EN' 'http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd'>
+<hibernate-mapping>
+  <class name='com.gf.ny.src.pra' table='pra'>
+  <id name='id' type='int' column='id'><generator class='increment'/></id>
+  <property name='primarykeyvalue' column='primarykeyvalue'/>
+  <property name='practitionergroup' column='practitionergroup'/>
+  <property name='practitionercategory' column='practitionercategory'/>
+  <property name='providerbilling' column='providerbilling'/>
+  <property name='specialty' column='specialty'/>
+  <property name='practitioneridnumbers' column='practitioneridnumbers'/>
+  <property name='privileges' column='privileges'/>
+  <property name='dateenteredpractice' column='dateenteredpractice'/>
+  <property name='route' type='int' column='route'/>
+  <property name='messagebodyid' column='messagebodyid'/>
+  <property name='segment' column='segment'/>
+</class>
+</hibernate-mapping>

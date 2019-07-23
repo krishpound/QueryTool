@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC '-//Hibernate/Hibernate Mapping DTD 3.0//EN' 'http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd'>
+<hibernate-mapping>
+  <class name='com.gf.ny.src.spm' table='spm'>
+  <id name='id' type='int' column='id'><generator class='increment'/></id>
+  <property name='setid' column='setid'/>
+  <property name='specimenid' column='specimenid'/>
+  <property name='specimenparentids' column='specimenparentids'/>
+  <property name='specimentype' column='specimentype'/>
+  <property name='specimentypemodifier' column='specimentypemodifier'/>
+  <property name='specimenadditives' column='specimenadditives'/>
+  <property name='specimencollectionmethod' column='specimencollectionmethod'/>
+  <property name='specimensourcesite' column='specimensourcesite'/>
+  <property name='specimensourcesitemodifier' column='specimensourcesitemodifier'/>
+  <property name='specimencollectionsite' column='specimencollectionsite'/>
+  <property name='specimenrole' column='specimenrole'/>
+  <property name='specimencollectionamount' column='specimencollectionamount'/>
+  <property name='groupedspecimencount' column='groupedspecimencount'/>
+  <property name='specimendescription' column='specimendescription'/>
+  <property name='specimenhandlingcode' column='specimenhandlingcode'/>
+  <property name='specimenriskcode' column='specimenriskcode'/>
+  <property name='specimencollectiondatetime' column='specimencollectiondatetime'/>
+  <property name='specimenreceiveddatetime' column='specimenreceiveddatetime'/>
+  <property name='specimenexpirationdatetime' column='specimenexpirationdatetime'/>
+  <property name='specimenavailability' column='specimenavailability'/>
+  <property name='specimenrejectreason' column='specimenrejectreason'/>
+  <property name='specimenquality' column='specimenquality'/>
+  <property name='specimenappropriateness' column='specimenappropriateness'/>
+  <property name='specimencondition' column='specimencondition'/>
+  <property name='specimencurrentquantity' column='specimencurrentquantity'/>
+  <property name='numberofspecimencontainers' column='numberofspecimencontainers'/>
+  <property name='containertype' column='containertype'/>
+  <property name='containercondition' column='containercondition'/>
+  <property name='specimenchildrole' column='specimenchildrole'/>
+  <property name='route' column='route'/>
+  <property name='segment' column='segment'/>
+  <property name='messagebodyid' column='messagebodyid'/>
+</class>
+</hibernate-mapping>

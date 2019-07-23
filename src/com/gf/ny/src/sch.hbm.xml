@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC '-//Hibernate/Hibernate Mapping DTD 3.0//EN' 'http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd'>
+<hibernate-mapping>
+  <class name='com.gf.ny.src.sch' table='sch'>
+  <id name='id' type='int' column='id'><generator class='increment'/></id>
+  <property name='placerAppointmentID' column='placer_appointment_id'/>
+  <property name='fillerAppointmentID' column='filler_appointment_id'/>
+  <property name='occurrenceNumber' column='occurrence_number'/>
+  <property name='placerGroupNumber' column='placer_group_number'/>
+  <property name='scheduleID' column='schedule_id'/>
+  <property name='eventReason' column='event_reason'/>
+  <property name='appointmentReason' column='appointment_reason'/>
+  <property name='appointmentType' column='appointment_type'/>
+  <property name='appointmentDuration' column='appointment_duration'/>
+  <property name='appointmentDurationUnits' column='appointment_duration_units'/>
+  <property name='appointmentTimingQuantity' column='appointment_timing_quantity'/>
+  <property name='placerContactPerson' column='placer_contact_person'/>
+  <property name='placerContactPhoneNumber' column='placer_contact_phone_number'/>
+  <property name='placerContactAddress' column='placer_contact_address'/>
+  <property name='placerContactLocation' column='placer_contact_location'/>
+  <property name='fillerContactPerson' column='filler_contact_person'/>
+  <property name='fillerContactPhoneNumber' column='filler_contact_phone_number'/>
+  <property name='fillerContactAddress' column='filler_contact_address'/>
+  <property name='fillerContactLocation' column='filler_contact_location'/>
+  <property name='enteredByPerson' column='entered_by_person'/>
+  <property name='enteredByPhoneNumber' column='entered_by_phone_number'/>
+  <property name='enteredByLocation' column='entered_by_location'/>
+  <property name='parentPlacerAppointmentID' column='parent_placer_appointment_id'/>
+  <property name='parentFillerAppointmentID' column='parent_filler_appointment_id'/>
+  <property name='fillerStatusCode' column='filler_status_code'/>
+  <property name='placerOrderNumber' column='placer_order_number'/>
+  <property name='fillerOrderNumber' column='filler_order_number'/>
+  <property name='messageControlId' column='messagecontrolid'/>
+  <property name='hl7Interface' column='interface'/>
+</class>
+</hibernate-mapping>

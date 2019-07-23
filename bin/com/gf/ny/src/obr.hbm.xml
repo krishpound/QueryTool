@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC '-//Hibernate/Hibernate Mapping DTD 3.0//EN' 'http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd'>
+<hibernate-mapping>
+  <class name='com.gf.ny.src.obr' table='obr'>
+  <id name='id' type='int' column='id'><generator class='increment'/></id>
+  <property name='setID' column='set_id'/>
+  <property name='placerOrderNumber' column='placer_order_number'/>
+  <property name='fillerOrderNumber' column='filler_order_number'/>
+  <property name='universalServiceIdentifier' column='universal_service_identifier'/>
+  <property name='priority' column='priority'/>
+  <property name='requestedDateTime' column='requested_datetime'/>
+  <property name='observationDateTime' column='observation_datetime'/>
+  <property name='observationEndDateTime' column='observation_end_datetime'/>
+  <property name='collectionVolume' column='collection_volume'/>
+  <property name='collectorIdentifier' column='collector_identifier'/>
+  <property name='specimenActionCode' column='specimen_action_code'/>
+  <property name='dangerCode' column='danger_code'/>
+  <property name='relevantClinicalInformation' column='relevant_clinical_information'/>
+  <property name='specimenReceivedDateTime' column='specimen_received_datetime'/>
+  <property name='specimenSource' column='specimen_source'/>
+  <property name='orderingProvider' column='ordering_provider'/>
+  <property name='orderCallbackPhoneNumber' column='order_callback_phone_number'/>
+  <property name='placerField1' column='placer_field_1'/>
+  <property name='placerField2' column='placer_field_2'/>
+  <property name='fillerField1' column='filler_field_1'/>
+  <property name='fillerField2' column='filler_field_2'/>
+  <property name='resultsRptStatusChngDateTime' column='results_rptstatus_chng__datetime'/>
+  <property name='chargetoPractice' column='charge_to_practice'/>
+  <property name='diagnosticServSectID' column='diagnostic_serv_sect_id'/>
+  <property name='resultStatus' column='result_status'/>
+  <property name='parentResult' column='parent_result'/>
+  <property name='quantityTiming' column='quantitytiming'/>
+  <property name='resultCopiesTo' column='result_copies_to'/>
+  <property name='parent' column='parent'/>
+  <property name='transportationMode' column='transportation_mode'/>
+  <property name='reasonforStudy' column='reason_for_study'/>
+  <property name='principalResultInterpreter' column='principal_result_interpreter'/>
+  <property name='assistantResultInterpreter' column='assistant_result_interpreter'/>
+  <property name='technician' column='technician'/>
+  <property name='transcriptionist' column='transcriptionist'/>
+  <property name='scheduledDateTime' column='scheduled_datetime'/>
+  <property name='numberofSampleContainers' column='number_of_sample_containers'/>
+  <property name='transportLogisticsofCollectedSample' column='transport_logistics_of_collected_sample'/>
+  <property name='collectorsComment' column='collectors_comment'/>
+  <property name='transportArrangementResponsibility' column='transport_arrangement_responsibility'/>
+  <property name='transportArranged' column='transport_arranged'/>
+  <property name='escortRequired' column='escort_required'/>
+  <property name='plannedPatientTransportComment' column='planned_patient_transport_comment'/>
+  <property name='procedureCode' column='procedure_code'/>
+  <property name='procedureCodeModifier' column='procedure_code_modifier'/>
+  <property name='placerSupplementalServiceInformation' column='placer_supplemental_service_information'/>
+  <property name='fillerSupplementalServiceInformation' column='filler_supplemental_service_information'/>
+  <property name='medicallyNecessaryDuplicateProcedureReason' column='medically_necessary_duplicate_procedure_reason'/>
+  <property name='resultHandling' column='result_handling'/>
+  <property name="messageBodyId" column='messagebodyid'/>
+  <property type="int" name="route" column='route'/>
+</class>
+</hibernate-mapping>

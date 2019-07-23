@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC '-//Hibernate/Hibernate Mapping DTD 3.0//EN' 'http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd'>
+<hibernate-mapping>
+  <class name='com.gf.ny.src.rxa' table='rxa'>
+  <id name='id' type='int' column='id'><generator class='increment'/></id>
+  <property name='giveSubIDCounter' column='give_subid_counter'/>
+  <property name='administrationSubIDCounter' column='administration_subid_counter'/>
+  <property name='dateTimeStartofAdministration' column='datetime_start_of_administration'/>
+  <property name='dateTimeEndofAdministration' column='datetime_end_of_administration'/>
+  <property name='administeredCode' column='administered_code'/>
+  <property name='administeredAmount' column='administered_amount'/>
+  <property name='administeredUnits' column='administered_units'/>
+  <property name='administeredDosageForm' column='administered_dosage_form'/>
+  <property name='administrationNotes' column='administration_notes'/>
+  <property name='administeringProvider' column='administering_provider'/>
+  <property name='administeredatLocation' column='administered_at_location'/>
+  <property name='administeredPerTimeUnit' column='administered_per_time_unit'/>
+  <property name='administeredStrength' column='administered_strength'/>
+  <property name='administeredStrengthUnits' column='administered_strength_units'/>
+  <property name='substanceLotNumber' column='substance_lot_number'/>
+  <property name='substanceExpirationDate' column='substance_expiration_date'/>
+  <property name='substanceManufacturerName' column='substance_manufacturer_name'/>
+  <property name='substanceTreatmentRefusalReason' column='substance_treatment_refusal_reason'/>
+  <property name='indication' column='indication'/>
+  <property name='completionStatus' column='completion_status'/>
+  <property name='actionCode' column='action_code'/>
+  <property name='systemEntryDateTime' column='system_entry_datetime'/>
+  <property name='administeredDrugStrengthVolume' column='administered_drug_strength_volume'/>
+  <property name='administeredDrugStrengthVolumeUnits' column='administered_drug_strength_volume_units'/>
+  <property name='administeredBarcodeIdentifier' column='administered_barcode_identifier'/>
+  <property name='pharmacyOrderType' column='pharmacy_order_type'/>
+  <property name='messageControlId' column='messagecontrolid'/>
+  <property name='hl7Interface' column='interface'/>
+</class>
+</hibernate-mapping>

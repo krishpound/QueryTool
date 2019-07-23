@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC '-//Hibernate/Hibernate Mapping DTD 3.0//EN' 'http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd'>
+<hibernate-mapping> 
+ <class name='com.gf.ny.src.pv1' table='pv1'>
+ <id name='id' type="int" column='id'><generator class='increment'/></id>
+ <property name='setID' column='set_id'/>
+ <property name='patientClass' column='patient_class'/>
+ <property name='assignedPatientLocation' column='assigned_patient_location'/>
+ <property name='admissionType' column='admission_type'/>
+ <property name='preadmitNumber' column='preadmit_number'/>
+ <property name='priorPatientLocation' column='prior_patient_location'/>
+ <property name='attendingDoctor' column='attending_doctor'/>
+ <property name='referringDoctor' column='referring_doctor'/>
+ <property name='consultingDoctor' column='consulting_doctor'/>
+ <property name='hospitalService' column='hospital_service'/>
+ <property name='temporaryLocation' column='temporary_location'/>
+ <property name='preadmitTestIndicator' column='preadmit_test_indicator'/>
+ <property name='readmissionIndicator' column='readmission_indicator'/>
+ <property name='admitSource' column='admit_source'/>
+ <property name='ambulatoryStatus' column='ambulatory_status'/>
+ <property name='VIPIndicator' column='vip_indicator'/>
+ <property name='admittingDoctor' column='admitting_doctor'/>
+ <property name='patientType' column='patient_type'/>
+ <property name='visitNumber' column='visit_number'/>
+ <property name='financialClass' column='financial_class'/>
+ <property name='chargePriceIndicator' column='charge_price_indicator'/>
+ <property name='courtesyCode' column='courtesy_code'/>
+ <property name='creditRating' column='credit_rating'/>
+ <property name='contractCode' column='contract_code'/>
+ <property name='contractEffectiveDate' column='contract_effective_date'/>
+ <property name='contractAmount' column='contract_amount'/>
+ <property name='contractPeriod' column='contract_period'/>
+ <property name='interestCode' column='interest_code'/>
+ <property name='transfertoBadDebtCode' column='transfer_to_bad_debt_code'/>
+ <property name='transfertoBadDebtDate' column='transfer_to_bad_debt_date'/>
+ <property name='badDebtAgencyCode' column='bad_debt_agency_code'/>
+ <property name='badDebtTransferAmount' column='bad_debt_transfer_amount'/>
+ <property name='badDebtRecoveryAmount' column='bad_debt_recovery_amount'/>
+ <property name='deleteAccountIndicator' column='delete_account_indicator'/>
+ <property name='deleteAccountDate' column='delete_account_date'/>
+ <property name='dischargeDisposition' column='discharge_disposition'/>
+ <property name='dischargedtoLocation' column='discharged_to_location'/>
+ <property name='dietType' column='diet_type'/>
+ <property name='servicingFacility' column='servicing_facility'/>
+ <property name='bedStatus' column='bed_status'/>
+ <property name='accountStatus' column='account_status'/>
+ <property name='pendingLocation' column='pending_location'/>
+ <property name='priorTemporaryLocation' column='prior_temporary_location'/>
+ <property name='admitDateTime' column='admit_datetime'/>
+ <property name='dischargeDateTime' column='discharge_datetime'/>
+ <property name='currentPatientBalance' column='current_patient_balance'/>
+ <property name='totalCharges' column='total_charges'/>
+ <property name='totalAdjustments' column='total_adjustments'/>
+ <property name='totalPayments' column='total_payments'/>
+ <property name='alternateVisitID' column='alternate_visit_id'/>
+ <property name='visitIndicator' column='visit_indicator'/>
+ <property name='otherHealthcareProvider' column='other_healthcare_provider'/>
+ <property name="segment" column='segment'/>
+ <property name="messageBodyId" column='messagebodyid'/>
+ <property type="int" name="route" column='route'/>
+</class>
+</hibernate-mapping>

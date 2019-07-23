@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC '-//Hibernate/Hibernate Mapping DTD 3.0//EN' 'http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd'>
+<hibernate-mapping>
+ <class name='com.gf.ny.src.vnd' table='vnd'>
+ <id name='id' type="int" column='id'><generator class='increment'/></id>
+ <property name='setId' column='set_id'/>
+ <property name='vendorIdentifier' column='vendor_identifier'/>
+ <property name='vendorName' column='vendor_name'/>
+ <property name='vendorCatalogNumber' column='vendor_catalog_number'/>
+ <property name='primaryVendorIndicator' column='primary_vendor_indicator'/>
+ <property name='messageControlId' column='messagecontrolid'/>
+ <property name='hl7Interface' column='interface'/>
+</class>
+</hibernate-mapping>

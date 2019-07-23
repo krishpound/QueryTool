@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC '-//Hibernate/Hibernate Mapping DTD 3.0//EN' 'http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd'>
+<hibernate-mapping>
+ <class name='com.gf.ny.src.dsp' table='dsp'>
+ <id name='id' type="int" column='id'><generator class='increment'/></id>
+ <property name='setId' column='set_id'/>
+ <property name='displayLevel' column='display_level'/>
+ <property name='dataLine' column='data_line'/>
+ <property name='logicalBreakPoint' column='logical_break_point'/>
+ <property name='resultId' column='result_id'/>
+ <property name='messageControlId' column='message_control_id'/>
+ <property name="iguanaInterface" column='interface'/>
+</class>
+</hibernate-mapping>

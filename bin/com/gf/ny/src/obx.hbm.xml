@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC '-//Hibernate/Hibernate Mapping DTD 3.0//EN' 'http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd'>
+<hibernate-mapping>
+ <class name='com.gf.ny.src.obx' table='obx'>
+ 	<id name='id' type="int" column='id'><generator class='increment'/></id>
+ 	<property name='setID' column='set_id'/>
+	<property name='valueType' column='value_type'/>
+	<property name='observationIdentifier' column='observation_identifier'/>
+	<property name='observationSubID' column='observation_subid'/>
+	<property name='observationValue' column='observation_value'/>
+	<property name='units' column='units'/>
+	<property name='referencesRange' column='references_range'/>
+	<property name='abnormalFlags' column='abnormal_flags'/>
+	<property name='probability' column='probability'/>
+	<property name='natureofAbnormalTest' column='nature_of_abnormal_test'/>
+	<property name='observationResultStatus' column='observation_result_status'/>
+	<property name='effectiveDateofReferenceRange' column='effective_date_of_reference_range'/>
+	<property name='userDefinedAccessChecks' column='user_defined_access_checks'/>
+	<property name='dateTimeoftheObservation' column='datetime_of_the_observation'/>
+	<property name='producersID' column='producers_id'/>
+	<property name='responsibleObserver' column='responsible_observer'/>
+	<property name='observationMethod' column='observation_method'/>
+	<property name='equipmentInstanceIdentifier' column='equipment_instance_identifier'/>
+	<property name='dateTimeoftheAnalysis' column='datetime_of_the_analysis'/>
+	<property name='route' column='route'/>
+  	<property name='segment' column='segment'/>
+  	<property name='messagebodyid' column='messagebodyid'/>
+</class>
+</hibernate-mapping>

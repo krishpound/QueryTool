@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC '-//Hibernate/Hibernate Mapping DTD 3.0//EN' 'http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd'>
+<hibernate-mapping>
+  <class name='com.gf.ny.src.stf' table='stf'>
+  <id name='id' type='int' column='id'><generator class='increment'/></id>
+  <property name='primaryKeyValue' column='primary_key_value'/>
+  <property name='staffIdentifierList' column='staff_identifier_list'/>
+  <property name='staffName' column='staff_name'/>
+  <property name='staffType' column='staff_type'/>
+  <property name='administrativeSex' column='administrative_sex'/>
+  <property name='dateTimeofBirth' column='datetime_of_birth'/>
+  <property name='activeInactiveFlag' column='activeinactive_flag'/>
+  <property name='department' column='department'/>
+  <property name='hospitalService' column='hospital_service'/>
+  <property name='phone' column='phone'/>
+  <property name='officeHomeAddressBirthplace' column='officehome_addressbirthplace'/>
+  <property name='institutionActivationDate' column='institution_activation_date'/>
+  <property name='institutionInactivationDate' column='institution_inactivation_date'/>
+  <property name='backupPersonID' column='backup_person_id'/>
+  <property name='emailAddress' column='email_address'/>
+  <property name='preferredMethodofContact' column='preferred_method_of_contact'/>
+  <property name='maritalStatus' column='marital_status'/>
+  <property name='jobTitle' column='job_title'/>
+  <property name='jobCodeClass' column='job_codeclass'/>
+  <property name='employmentStatusCode' column='employment_status_code'/>
+  <property name='additionalInsuredonAuto' column='additional_insured_on_auto'/>
+  <property name='driverLicenseNumber' column='driver_license_number'/>
+  <property name='copyAutoIns' column='copy_auto_ins'/>
+  <property name='autoInsExpires' column='auto_ins_expires'/>
+  <property name='dateLastDMVReview' column='date_last_dmv_review'/>
+  <property name='dateNextDMVReview' column='date_next_dmv_review'/>
+  <property name='race' column='race'/>
+  <property name='ethnicGroup' column='ethnic_group'/>
+  <property name='reactivationApprovalIndicator' column='reactivation_approval_indicator'/>
+  <property name='citizenship' column='citizenship'/>
+  <property name='deathDateandTime' column='death_date_and_time'/>
+  <property name='deathIndicator' column='death_indicator'/>
+  <property name='institutionRelationshipTypeCode' column='institution_relationship_type_code'/>
+  <property name='institutionRelationshipPeriod' column='institution_relationship_period'/>
+  <property name='expectedReturnDate' column='expected_return_date'/>
+  <property name='costCenterCode' column='cost_center_code'/>
+  <property name='genericClassificationIndicator' column='generic_classification_indicator'/>
+  <property name='inactiveReasonCode' column='inactive_reason_code'/>
+  <property name="segment" column='segment'/>
+  <property name="messagebodyid" column='messagebodyid'/>
+  <property type="int" name="route" column='route'/>
+</class>
+</hibernate-mapping>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC '-//Hibernate/Hibernate Mapping DTD 3.0//EN' 'http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd'>
+<hibernate-mapping>
+ <class name='com.gf.ny.src.evn' table='evn'>
+ <id name='id' type="int" column='id'><generator class='increment'/></id>
+ <property name='eventTypeCode' column='event_type_code'/>
+ <property name='recordedDateTime' column='recorded_datetime'/>
+ <property name='dateTimePlannedEvent' column='datetime_planned_event'/>
+ <property name='eventReasonCode' column='event_reason_code'/>
+ <property name='operatorID' column='operator_id'/>
+ <property name='eventOccurred' column='event_occurred'/>
+ <property name='eventFacility' column='event_facility'/>
+ <property name="segment" column='segment'/>
+ <property name="messagebodyid" column='messagebodyid'/>
+ <property type="int" name="route" column='route'/>
+</class>
+</hibernate-mapping> 

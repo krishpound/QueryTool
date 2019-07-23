@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC '-//Hibernate/Hibernate Mapping DTD 3.0//EN' 'http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd'>
+<hibernate-mapping>
+  <class name='com.gf.ny.src.cos' table='con'>
+  <id name='id' type='int' column='id'><generator class='increment'/></id>
+  <property name='consenttype' column='consenttype'/>
+  <property name='consentformidandversion' column='consentformidandversion'/>
+  <property name='consentformnumber' column='consentformnumber'/>
+  <property name='consenttext' column='consenttext'/>
+  <property name='subjectspecificconsenttext' column='subjectspecificconsenttext'/>
+  <property name='consentbackgroundinformation' column='consentbackgroundinformation'/>
+  <property name='subjectspecificconsentbackgroundtext' column='subjectspecificconsentbackgroundtext'/>
+  <property name='consentmode' column='consentmode'/>
+  <property name='consentstatus' column='consentstatus'/>
+  <property name='consentdiscussiondatetime' column='consentdiscussiondatetime'/>
+  <property name='consentdecisiondatetime' column='consentdecisiondatetime'/>
+  <property name='consenteffectivedatetime' column='consenteffectivedatetime'/>
+  <property name='consentenddatetime' column='consentenddatetime'/>
+  <property name='subjectcompetenceindicator' column='subjectcompetenceindicator'/>
+  <property name='translatorassistanceindicator' column='translatorassistanceindicator'/>
+  <property name='languagetranslatedto' column='languagetranslatedto'/>
+  <property name='informationalmaterialsuppliedindicator' column='informationalmaterialsuppliedindicator'/>
+  <property name='consentbypassreason' column='consentbypassreason'/>
+  <property name='consentdisclosurelevel' column='consentdisclosurelevel'/>
+  <property name='consentnondisclosurereason' column='consentnondisclosurereason'/>
+  <property name='nonsubjectconsenterreason' column='nonsubjectconsenterreason'/>
+  <property name='consenterid' column='consenterid'/>
+  <property name='relationshiptosubject' column='relationshiptosubject'/>
+  <property name="segment" column='segment'/>
+  <property name="messagebodyid" column='messagebodyid'/>
+  <property type="int" name="route" column='route'/>
+</class>
+</hibernate-mapping>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC '-//Hibernate/Hibernate Mapping DTD 3.0//EN' 'http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd'>
+<hibernate-mapping>
+  <class name='com.gf.ny.src.mfi' table='mfi'>
+  <id name='id' type='int' column='id'><generator class='increment'/></id>
+  <property name='masterFileIdentifier' column='master_file_identifier'/>
+  <property name='masterFileApplicationIdentifier' column='master_file_application_identifier'/>
+  <property name='fileLevelEventCode' column='filelevel_event_code'/>
+  <property name='enteredDateTime' column='entered_datetime'/>
+  <property name='effectiveDateTime' column='effective_datetime'/>
+  <property name='responseLevelCode' column='response_level_code'/>
+  <property name="segment" column='segment'/>
+  <property name="messagebodyid" column='messagebodyid'/>
+  <property type="int" name="route" column='route'/>
+</class>
+</hibernate-mapping>

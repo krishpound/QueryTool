@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC '-//Hibernate/Hibernate Mapping DTD 3.0//EN' 'http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd'>
+<hibernate-mapping>
+ <class name='com.gf.ny.src.in3' table='in3'>
+ <id name='id' type="int" column='id'><generator class='increment'/></id>
+ <property name='setID' column='setid'/>
+ <property name='certificationNumber' column='certificationnumber'/>
+ <property name='certifiedBy' column='certifiedby'/>
+ <property name='certificationRequired' column='certificationrequired'/>
+ <property name='penalty' column='penalty'/>
+ <property name='certificationDateTime' column='certificationdatetime'/>
+ <property name='certificationModifyDateTime' column='certificationmodifydatetime'/>
+ <property name='operator' column='operator'/>
+ <property name='certificationBeginDate' column='certificationbegindate'/>
+ <property name='certificationEndDate' column='certificationenddate'/>
+ <property name='days' column='days'/>
+ <property name='nonConcurCodeDescription' column='nonconcurcodedescription'/>
+ <property name='nonConcurEffectiveDateTime' column='nonconcureffectivedatetime'/>
+ <property name='physicianReviewer' column='physicianreviewer'/>
+ <property name='certificationContact' column='certificationcontact'/>
+ <property name='certificationContactPhoneNumber' column='certificationcontactphonenumber'/>
+ <property name='appealReason' column='appealreason'/>
+ <property name='certificationAgency' column='certificationagency'/>
+ <property name='certificationAgencyPhoneNumber' column='certificationagencyphonenumber'/>
+ <property name='preCertificationRequirement' column='precertificationrequirement'/>
+ <property name='caseManager' column='casemanager'/>
+ <property name='secondOpinionDate' column='secondopiniondate'/>
+ <property name='secondOpinionStatus' column='secondopinionstatus'/>
+ <property name='secondOpinionDocumentationReceived' column='secondopiniondocumentationreceived'/>
+ <property name='secondOpinionPhysician' column='secondopinionphysician'/>
+ <property name="segment" column='segment'/>
+ <property name="messagebodyid" column='messagebodyid'/>
+ <property type="int" name="route" column='route'/>
+ </class>
+</hibernate-mapping>

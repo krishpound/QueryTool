@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC '-//Hibernate/Hibernate Mapping DTD 3.0//EN' 'http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd'>
+<hibernate-mapping>
+ <class name='com.gf.ny.src.dg1' table='dg1'>
+ <id name='id' type="int" column='id'><generator class='increment'/></id>
+ <property name='setId' column='setid'/>
+ <property name='diagnosisCodingMethod' column='diagnosiscodingmethod'/>
+ <property name='diagnosisCode' column='diagnosiscode'/>
+ <property name='diagnosisDescription' column='diagnosisdescription'/>
+ <property name='diagnosisDatetime' column='diagnosisdatetime'/>
+ <property name='diagnosisType' column='diagnosistype'/>
+ <property name='majorDiagnosticCategory' column='majordiagnosticcategory'/>
+ <property name='diagnosticRelatedGroup' column='diagnosticrelatedgroup'/>
+ <property name='drgApprovalIndicator' column='drgapprovalindicator'/>
+ <property name='drgGrouperReviewCode' column='drggrouperreviewcode'/>
+ <property name='outlierType' column='outliertype'/>
+ <property name='outlierDays' column='outlierdays'/>
+ <property name='outlierCost' column='outliercost'/>
+ <property name='grouperVersionAndType' column='grouperversionandtype'/>
+ <property name='diagnosisPriority' column='diagnosispriority'/>
+ <property name='diagnosingClinician' column='diagnosingclinician'/>
+ <property name='diagnosisClassification' column='diagnosisclassification'/>
+ <property name='confidentialIndicator' column='confidentialindicator'/>
+ <property name='attestationDatetime' column='attestationdatetime'/>
+ <property name='diagnosisIdentifier' column='diagnosisidentifier'/>
+ <property name='diagnosisActionCode' column='diagnosisactioncode'/>
+ <property name='route' column='route'/>
+ <property name='segment' column='segment'/>
+ <property name='messagebodyid' column='messagebodyid'/>
+</class>
+</hibernate-mapping>

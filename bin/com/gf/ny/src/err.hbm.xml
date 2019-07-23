@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC '-//Hibernate/Hibernate Mapping DTD 3.0//EN' 'http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd'>
+<hibernate-mapping>
+ <class name='com.gf.ny.src.err' table='err'>
+ 	<id name='id' type="int" column='id'><generator class='increment'/></id>
+ 	<property name='errorCodeAndLocation' column='errorcodeandlocation'/>
+	<property name='errorLocation' column='errorlocation'/>
+	<property name='hl7ErrorCode' column='hl7errorcode'/>
+	<property name='severity' column='severity'/>
+	<property name='applicationErrorCode' column='applicationerrorcode'/>
+	<property name='applicationErrorParameter' column='applicationerrorparameter'/>
+	<property name='diagnosticInformation' column='diagnosticinformation'/>
+	<property name='userMessage' column='usermessage'/>
+	<property name='informPersonIndicator' column='informpersonindicator'/>
+	<property name='overrideType' column='overridetype'/>
+	<property name='overrideReasonCode' column='overridereasoncode'/>
+	<property name='helpDeskContactPoint' column='helpdeskcontactpoint'/>
+	<property name='hl7Interface' column='interface'/>
+	<property name='messageControlId' column='messagecontrolid'/>
+ </class>
+</hibernate-mapping>

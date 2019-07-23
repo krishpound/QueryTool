@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC '-//Hibernate/Hibernate Mapping DTD 3.0//EN' 'http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd'>
+<hibernate-mapping>
+  <class name='com.gf.ny.src.zct' table='zct'>
+  <id name='id' type='int' column='id'><generator class='increment'/></id>
+  <property name='one' column='one'/>
+  <property name='two' column='two'/>
+  <property name='three' column='three'/>
+  <property name='four' column='four'/>
+  <property name='five' column='five'/>
+  <property name='six' column='six'/>
+  <property name='seven' column='seven'/>
+  <property name='eight' column='eight'/>
+  <property name='nine' column='nine'/>
+  <property name='ten' column='ten'/>
+  <property name='eleven' column='eleven'/>
+  <property name='twelve' column='twelve'/>
+  <property name='route' type='int' column='route'/>
+  <property name='messagebodyid' column='messagebodyid'/>
+  <property name='segment' column='segment'/>
+</class>
+</hibernate-mapping>

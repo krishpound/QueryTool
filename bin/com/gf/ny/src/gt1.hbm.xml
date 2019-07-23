@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC '-//Hibernate/Hibernate Mapping DTD 3.0//EN' 'http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd'>
+<hibernate-mapping>
+  <class name='com.gf.ny.src.gt1' table='gt1'>
+  <id name='id' type='int' column='id'><generator class='increment'/></id>
+  <property name='setid' column='setid'/>
+  <property name='guarantornumber' column='guarantornumber'/>
+  <property name='guarantorname' column='guarantorname'/>
+  <property name='guarantorspouseName' column='guarantorspousename'/>
+  <property name='guarantoraddress' column='guarantoraddress'/>
+  <property name='guarantorphnumhome' column='guarantorphnumhome'/>
+  <property name='guarantorphnumbusiness' column='guarantorphnumbusiness'/>
+  <property name='guarantordatetimeofbirth' column='guarantordatetimeofbirth'/>
+  <property name='guarantorsex' column='guarantorsex'/>
+  <property name='guarantortype' column='guarantortype'/>
+  <property name='guarantorrelationship' column='guarantorrelationship'/>
+  <property name='guarantorssn' column='guarantorssn'/>
+  <property name='guarantordatebegin' column='guarantordatebegin'/>
+  <property name='guarantordateend' column='guarantordateend'/>
+  <property name='guarantorpriority' column='guarantorpriority'/>
+  <property name='guarantoremployername' column='guarantoremployername'/>
+  <property name='guarantoremployeraddress' column='guarantoremployeraddress'/>
+  <property name='guarantoremployerphonenumber' column='guarantoremployerphonenumber'/>
+  <property name='guarantoremployeeidnumber' column='guarantoremployeeidnumber'/>
+  <property name='guarantoremploymentstatus' column='guarantoremploymentstatus'/>
+  <property name='guarantororganizationname' column='guarantororganizationname'/>
+  <property name='guarantorbillingholdflag' column='guarantorbillingholdflag'/>
+  <property name='guarantorcreditratingcode' column='guarantorcreditratingcode'/>
+  <property name='guarantordeathdateandtime' column='guarantordeathdateandtime'/>
+  <property name='guarantordeathflag' column='guarantordeathflag'/>
+  <property name='guarantorchargeadjustmentcode' column='guarantorchargeadjustmentcode'/>
+  <property name='guarantorhouseholdannualincome' column='guarantorhouseholdannualincome'/>
+  <property name='guarantorhouseholdsize' column='guarantorhouseholdsize'/>
+  <property name='guarantoremployeridnumber' column='guarantoremployeridnumber'/>
+  <property name='guarantormaritalstatuscode' column='guarantormaritalstatuscode'/>
+  <property name='employmentstopdate' column='employmentstopdate'/>
+  <property name='livingdependency' column='livingdependency'/>
+  <property name='ambulatorystatus' column='ambulatorystatus'/>
+  <property name='citizenship' column='citizenship'/>
+  <property name='primarylanguage' column='primarylanguage'/>
+  <property name='livingarrangement' column='livingarrangement'/>
+  <property name='publicitycode' column='publicitycode'/>
+  <property name='protectionindicator' column='protectionindicator'/>
+  <property name='studentindicator' column='studentindicator'/>
+  <property name='religion' column='religion'/>
+  <property name='mothersmaidenname' column='mothersmaidenname'/>
+  <property name='nationality' column='nationality'/>
+  <property name='ethnicgroup' column='ethnicgroup'/>
+  <property name='contactpersonsname' column='contactpersonsname'/>
+  <property name='contactpersonstelephonenumber' column='contactpersonstelephonenumber'/>
+  <property name='contactreason' column='contactreason'/>
+  <property name='contactrelationship' column='contactrelationship'/>
+  <property name='jobtitle' column='jobtitle'/>
+  <property name='jobcodeclass' column='jobcodeclass'/>
+  <property name='guarantoremployersorganizationname' column='guarantoremployersorganizationname'/>
+  <property name='handicap' column='handicap'/>
+  <property name='jobstatus' column='jobstatus'/>
+  <property name='guarantorfinancialclass' column='guarantorfinancialclass'/>
+  <property name='guarantorrace' column='guarantorrace'/>
+  <property name="segment" column='segment'/>
+  <property name="messagebodyid" column='messagebodyid'/>
+  <property type="int" name="route" column='route'/>
+</class>
+</hibernate-mapping>

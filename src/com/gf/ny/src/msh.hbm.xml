@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC '-//Hibernate/Hibernate Mapping DTD 3.0//EN' 'http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd'>
+<hibernate-mapping>
+ <class name='com.gf.ny.src.msh' table='msh'>
+ <id name='id' type="int" column='id'><generator class='increment'/></id>
+ <property name='sendingApp' column='sending_app'/>
+ <property name='sendingFacility' column='sending_facility'/>
+ <property name='receivingApp' column='receiving_app'/>
+ <property name='receivingFacility' column='receiving_facility'/>
+ <property name='datetimeOfMessage' column='datetime_of_message'/>
+ <property name='messageType' column='message_type'/>
+ <property name='messageControlId' column='messagecontrolid'/>
+ <property name='processingId' column='processing_id'/>
+ <property name='versionId' column='version_id'/>
+ <property name="segment" column='segment'/>
+ <property name="messageBodyId" column='messagebodyid'/>
+ <property type="int" name="route" column='route'/>
+</class>
+</hibernate-mapping>

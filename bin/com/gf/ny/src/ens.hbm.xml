@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC '-//Hibernate/Hibernate Mapping DTD 3.0//EN' 'http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd'>
+<hibernate-mapping>
+  <class name='com.gf.ny.src.EnsembleConfiguration' table='ensemble_configuration'>
+  <id name='id' type='int' column='id'><generator class='increment'/></id>
+  <property name='environment' column='environment'/>
+  <property name='production' column='production'/>
+  <property name='namespace' column='namespace'/>
+  <property name='category' column='category'/>
+  <property name='hl7Interface' column='interface'/>
+  <property name='port' column='port'/>
+  <property name='enabled' column='enabled'/>
+  <property name='className' column='classname'/>
+  <property name='lastRefresh' column='last_refresh'/>
+  <property name='remoteIp' column='remote_ip'/>
+ </class>
+</hibernate-mapping>

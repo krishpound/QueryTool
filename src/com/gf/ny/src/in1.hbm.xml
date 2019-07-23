@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC '-//Hibernate/Hibernate Mapping DTD 3.0//EN' 'http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd'>
+<hibernate-mapping>
+ <class name='com.gf.ny.src.in1' table='in1'>
+ <id name='id' type="int" column='id'><generator class='increment'/></id>
+ <property name='setId' column='setid'/>
+ <property name='insurancePlanID' column='insuranceplanid'/>
+ <property name='insuranceCompanyId' column='insurancecompanyid'/>
+ <property name='insuranceCompanyName' column='insurancecompanyname'/>
+ <property name='insuranceCompanyAddress' column='insurancecompanyaddress'/>
+ <property name='insuranceCoContactPerson' column='insurancecocontactperson'/>
+ <property name='insuranceCoPhoneNumber' column='insurancecophonenumber'/>
+ <property name='groupNumber' column='groupnumber'/>
+ <property name='groupName' column='groupname'/>
+ <property name='insuredGroupEmpId' column='insuredgroupempid'/>
+ <property name='insuredGroupEmpName' column='insuredgroupempname'/>
+ <property name='planEffectiveDate' column='planeffectivedate'/>
+ <property name='planExpirationDate' column='planexpirationdate'/>
+ <property name='authorizationInformation' column='authorizationinformation'/>
+ <property name='planType' column='plantype'/>
+ <property name='nameOfInsured' column='nameofinsured'/>
+ <property name='insuredRelationshipToPatient' column='insuredrelationshiptopatient'/>
+ <property name='insuredDateOfBirth' column='insureddateofbirth'/>
+ <property name='insuredAddress' column='insuredaddress'/>
+ <property name='assignmentOfBenefits' column='assignmentofbenefits'/>
+ <property name='coordinationOfBenefits' column='coordinationofbenefits'/>
+ <property name='coordOfBenPriority' column='coordofbenpriority'/>
+ <property name='noticeOfAdmissionFlag' column='noticeofadmissionflag'/>
+ <property name='noticeOfAdmissionDate' column='noticeofadmissiondate'/>
+ <property name='reportOfEligibilityFlag' column='reportofeligibilityflag'/>
+ <property name='reportOfEligibilityDate' column='reportofeligibilitydate'/>
+ <property name='releaseInformationCode' column='releaseinformationcode'/>
+ <property name='preAdmitCert' column='preadmitcert'/>
+ <property name='verificationDateTime' column='verificationdatetime'/>
+ <property name='verificationBy' column='verificationby'/>
+ <property name='typeOfAgreementCode' column='typeofagreementcode'/>
+ <property name='billingStatus' column='billingstatus'/>
+ <property name='lifetimeReserveDays' column='lifetimereservedays'/>
+ <property name='delayBeforeLRDay' column='delaybeforelrday'/>
+ <property name='companyPlanCode' column='companyplancode'/>
+ <property name='policyNumber' column='policynumber'/>
+ <property name='policyDeductible' column='policydeductible'/>
+ <property name='policyLimitAmount' column='policylimitamount'/>
+ <property name='policyLimitDays' column='policylimitdays'/>
+ <property name='roomRateSemiPrivate' column='roomratesemiprivate'/>
+ <property name='roomRatePrivate' column='roomrateprivate'/>
+ <property name='insuredEmploymentStatus' column='insuredemploymentstatus'/>
+ <property name='insuredAdministrativeSex' column='insuredadministrativesex'/>
+ <property name='insuredEmployerAddress' column='insuredemployeraddress'/>
+ <property name='verificationStatus' column='verificationstatus'/>
+ <property name='priorInsurancePlanId' column='priorinsuranceplanid'/>
+ <property name='coverageType' column='coveragetype'/>
+ <property name='handicap' column='handicap'/>
+ <property name='insuredIdNumber' column='insuredidnumber'/>
+ <property name='signatureCode' column='signaturecode'/>
+ <property name='signatureCodeDate' column='signaturecodedate'/>
+ <property name='insuredBirthPlace' column='insuredbirthplace'/>
+ <property name='vIPIndicator' column='vipindicator'/>
+ <property name="segment" column='segment'/>
+ <property name="messagebodyid" column='messagebodyid'/>
+ <property type="int" name="route" column='route'/>
+</class>
+</hibernate-mapping>
